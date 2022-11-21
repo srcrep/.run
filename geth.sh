@@ -28,7 +28,7 @@ sudo tar -C /usr/local -xzf go1.9.3.linux-amd64.tar.gz &&
 # add to bash
 #
 #
-export PATH="$PATH:/usr/local/go/bin" &&
+export PATH="$PATH:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games" &&
 #
 #
 # build geth
