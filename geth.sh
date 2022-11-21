@@ -5,9 +5,9 @@
 #
 #
 sudo apt-get update &&
-sudo apt-get upgrade &&
+sudo apt-get upgrade -y &&
 sudo apt-get install -y build-essential &&
-sudo apt-get install git &&
+sudo apt-get install -y git &&
 cd ~ &&
 git clone https://github.com/ethereum/go-ethereum.git &&
 cd ~ &&
